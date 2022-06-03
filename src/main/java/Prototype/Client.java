@@ -2,8 +2,8 @@ package Prototype;
 
 public class Client {
 
-    public void operation(){
-       // todo Prototype p = p.clone()
+    public Prototype operation(Prototype p){
+        return p.cloneObject();
     }
 
 }

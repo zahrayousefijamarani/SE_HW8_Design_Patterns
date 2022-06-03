@@ -1,5 +1,5 @@
 package Prototype;
 
 public interface Prototype {
-    public Prototype clone();
+    public abstract Prototype cloneObject();
 }
