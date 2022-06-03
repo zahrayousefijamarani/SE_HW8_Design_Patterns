@@ -1,6 +1,6 @@
 package AbstractFactory;
 
-public class JapaneaseGardenCreator extends AbstractGardenCreator {
+public class JapaneseGardenCreator extends AbstractGardenCreator {
     public AbstractTree createTree() {
         return new J1();
     }
